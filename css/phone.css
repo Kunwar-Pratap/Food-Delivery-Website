@@ -1,0 +1,78 @@
+@media screen and (max-width: 1400px) {
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar ul {
+        margin: auto;
+    }
+
+    #navbar ul li a {
+        font-size: 18px;
+        padding: 0 8px;
+        padding-bottom: 9px;
+    }
+
+    #navbar ul li a:hover {
+        padding: 8px 8px;
+    }
+
+    #home-container {
+        height: 420px;
+        padding: 5px 20px;
+        margin-bottom: 30px;
+    }
+
+    #home-container h1 {
+        font-size: 1.4em;
+    }
+
+    #home-container::before {
+        height: 545px;
+    }
+
+    #mainServices {
+        flex-direction: column;
+    }
+
+    #mainServices .dock {
+        margin: 5px 0;
+        padding: 17px;
+        margin-bottom: 17px;
+    }
+
+    #delicious {
+        flex-wrap: wrap;
+    }
+
+    #delicious .food-item img {
+        height: 70px;
+        width: auto;
+    }
+
+    .main {
+        font-size: 1.2em;
+    }
+
+    .primary {
+        font-size: 1em;
+    }
+
+    .secondary {
+        font-size: 17px;
+    }
+
+    .buttonContact {
+        font-size: 15px;
+    }
+
+    .buttonHome {
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+}

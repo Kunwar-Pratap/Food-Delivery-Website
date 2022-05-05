@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+:root {
+    --navbarFont: 'Lato', sans-serif;
+    --headingFont: 'Rubik', sans-serif;
+    --containFont: 'Nanum Gothic', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.main {
+    font-size: 2.5em;
+    font-family: var(--headingFont);
+}
+
+.primary {
+    font-size: 2em;
+    font-family: var(--headingFont);
+    padding: 8px 0;
+}
+
+.secondary {
+    font-size: 1.5em;
+    font-family: var(--containFont);
+}
